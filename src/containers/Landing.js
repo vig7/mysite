@@ -20,17 +20,17 @@ function Landing() {
           <div className="icons">
             {" "}
             <img
-              src="../LinkedIN.png"
+              src="../../public/LinkedIN.png"
               alt="LinkedIN"
               onClick={() => {
                 window.open("https://www.linkedin.com/in/vig/", "_blank");
               }}
             ></img>
             <a href="mailto:vigneshklr7@gmail.com">
-              <img src="../Mail.png" alt="mail"></img>
+              <img src="../../public/Mail.png" alt="mail"></img>
             </a>
             <img
-              src="../LeetCode.png"
+              src="../../public/LeetCode.png"
               alt="LeetCode"
               onClick={() => {
                 window.open("https://leetcode.com/vig7/", "_blank");
