@@ -1,6 +1,7 @@
 import "./Landing.css";
 import "../images/codeScreen.jpg";
 import { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 function Landing() {
   useEffect(() => {
@@ -125,7 +126,8 @@ function Landing() {
             </div>
           </div>
         </div>
-      </div>
+      </div>{" "}
+      <Analytics />
     </div>
   );
 }
